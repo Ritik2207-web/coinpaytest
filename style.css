@@ -1,0 +1,270 @@
+body{
+    scroll-behavior: smooth;
+}
+.main-head{
+    width: 100%;
+    height: 100vh;
+    background: #2D2D2D;
+    /* position: absolute; */
+
+}
+.navbar-brand{
+    width: 10%;
+}
+.navbar{
+    background: #2D2D2D;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(253 253 253);
+    transition: 1s;
+    @font-face {
+    font-family: 'Proxima Nova';
+    src: url('../files/fonts/Proxima\ Nova/Proxima Nova Bold.otf');
+
+}
+
+    
+}
+.navbar-light .navbar-nav .nav-link:hover {
+   /* border-bottom: 10px solid yellow;
+
+   border-radius: 30%; */
+   color: #fff;
+ 
+}
+/*  Home pages  */
+.homepage{
+    color: #fff;
+}
+#background-video{
+margin-top: 50px;
+}
+.div-2 h2{
+
+margin-left: 100px;
+}
+.div-3 h2{
+    margin-left: 150px;
+}
+.sec-left{
+    height: 500px;
+    display: grid;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.div-5 button{
+    margin-left: 200px;
+}
+.secondpage{
+    height: 100vh;
+    align-items: center;
+    display: grid;
+
+}
+.sec-1 {
+    /* position: absolute; */
+width: 452px;
+height: 52px;
+left: 108.37px;
+top: 1187.66px;
+@font-face {
+    font-family: Rubik;
+    src: url('../files/fonts/Proxima\ Nova/Proxima Nova Bold.otf');
+
+}
+
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 52px;
+letter-spacing: 0.05em;
+
+color: #2B2B2B;
+
+}
+.sec-2 {
+    width: 153px;
+height: 32px;
+left: 106.37px;
+top: 1266.66px;
+@font-face {
+    font-family: Helvetica;
+    src: url('../files/fonts/Helvetica-Font/Helvetica-Bold.ttf');
+
+}
+
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+letter-spacing: 0.05em;
+}
+.sec-3 {
+    /* position: absolute; */
+width: 442px;
+height: 89px;
+left: 106.37px;
+top: 1311.66px;
+
+@font-face {
+    font-family: Helvetica;
+    src: url('../files/fonts/Helvetica-Font/Helvetica-Bold.ttf');
+
+}
+
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.05em;
+
+color: #585858;
+}
+.myfeature{
+    float: right;
+}
+.why{
+    height: 100vh;
+    align-items: center;
+    display: grid;
+    flex-direction: column;
+}
+.choice{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.cdh{
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+.cdh p{
+    /* width: 94px; */
+height: 42px;
+
+margin-top: 10px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #585858;
+}
+.program{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.program p{
+    color: #585858;
+}
+
+/* ====== mobile version ====== */
+@media screen and (max-width:768px) {
+    .sec-left{
+        height: 266px;
+    }
+    .sec-1{
+        font-size: 30px;
+    }
+    .sec-3{
+        font-size: 16px;
+        width: 270px;
+    }
+    .myfeature{
+        float: left;
+    }
+    .logo{
+        width: 100px;
+    }
+ 
+}
+/* ===== product pages ====== */
+.card1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0px;
+border-radius: 20px;
+margin-top: 25px;
+}
+.card1 img{
+    width: 96.59px;
+height: 82.93px;
+}
+.card1 p{
+    width: 174px;
+height: 147px;
+
+margin-top: 20px;
+font-family: Helvetica Light;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+/* === earn and refer === */
+.num{
+    width: 30%;
+    height: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 50%;
+    background-color:#ffc107;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.contain{
+left: 100px;
+    position: absolute;
+    top: -10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.coli{
+    left: 100px;
+    position: absolute;
+    top: 80px;
+}
+
+
+/* resposiveness */
+@media screen and (max-width:768px) {
+    .earnimg img{
+        width: 50%;
+    }
+    .earnimg{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .coli{
+        position: relative;
+      left: 10px;
+    }
+    
+}
+/* ====== login  page ===== */
+.loginpage{
+    border-radius: 30px;
+}
+.loginpage img{
+    width: 35px;
+ 
+   margin: auto;
+}
+.btn a{
+    color: #000;
+}
+.login{
+    width: 100%;
+    height: 100vh;
+}
