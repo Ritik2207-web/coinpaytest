@@ -6,6 +6,8 @@
 
 body{
     scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .main-head{
     width: 100%;
@@ -21,9 +23,7 @@ video{
     video{
     width:75%;
     }
-    body{
-         margin-right: -100px;   
-    }
+   
 }
 .navbar-brand{
     width: 10%;
