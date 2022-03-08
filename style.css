@@ -21,6 +21,9 @@ video{
     video{
     width:75%;
     }
+    body{
+         margin-right: -100px;   
+    }
 }
 .navbar-brand{
     width: 10%;
